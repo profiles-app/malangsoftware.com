@@ -1,0 +1,1 @@
+rsync -azPv --progress -e "ssh -p 51999" . apps@69.85.84.153:/home/apps/services/daud.web.id/ --exclude node_modules --exclude .env --exclude deploy --exclude package-lock.json --exclude .git --exclude .gitignore

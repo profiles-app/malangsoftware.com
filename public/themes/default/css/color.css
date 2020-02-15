@@ -25,7 +25,7 @@
 .single-blog .comments .reply,
 .single-blog .leave-comment input[type="submit"],
 .single-blog .tags li a {
-	background-color: #f35b25;
+	background-color: #6fd586;
 }
 
 .section h2,
@@ -42,32 +42,32 @@
 .single-blog .populaire-posts h3,
 .single-blog .tags h3,
 .single-blog .archive h3 {
-	color: #f35b25;
+	color: #6fd586;
 }
 
 .section-about .li-social-links a:hover {
-	border-color: #f35b25;
-	box-shadow: 0 0 3px #f35b25;
+	border-color: #6fd586;
+	box-shadow: 0 0 3px #6fd586;
 }
 
 .section-education h3::before {
-	border-top-color: #ab4521;
-	border-right-color: #ab4521;
+	border-top-color: #6fd586;
+	border-right-color: #6fd586;
 }
 
 .section-contact-us input:focus,
 .section-contact-us textarea:focus,
 .single-blog .leave-comment input:focus,
 .single-blog .leave-comment textarea:focus {
-	border-bottom-color: #f35b25;
+	border-bottom-color: #6fd586;
 }
 
 .theme-option,
 .theme-option .open-theme {
-	border: 2px solid #f35b25;
+	border: 2px solid #6fd586;
 	border-right: none;
 }
 
 .single-blog blockquote {
-	border-left: 6px solid #f35b25;
+	border-left: 6px solid #6fd586;
 }
