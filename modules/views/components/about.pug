@@ -1,65 +1,29 @@
-section(id="about", class="section section-about wow fadeInUp", style="visibility: visible; animation-name: fadeInUp;")
-    div(class="profile")
-        div(class="row")
-            div(class="col-sm-4")
-                div(class="photo-profile")
-                    img(src="/themes/default/img/me.png", alt="M. Daud Anugerah", width="200")
-                //- a(href="#", disabled)
-                    div(class="download-resume")
-                        i(aria-hidden="true", class="fa fa-cloud-download")
-                        span(class="text-download") DOWNLOAD RESUME
-                div(class="available", style="margin-top: 30px;")
-                    i(aria-hidden="true", class="fa fa-check")
-                    span(class="text-available", style="color: rgb(234, 90, 51);") Available on freelance
-            div(class="col-sm-8")
-                div(class="info-profile")
-                    h3(class="pad0 mg-t10 fs23 color-f35b25 d-block d-sm-none") M. Daud Anugerah
-                    span(class="mg-b10 color-f35b25 d-block d-sm-none") web developer &amp; backend developer
-                    h2(class="d-none d-sm-block") M. Daud Anugerah
-                    h3(class="d-none d-sm-block") web developer &amp; backend developer
-                    <p>
-                        | Hi, Saya M. Daud Anugerah. Seorang Web Developer
-                        | dengan lebih dari #{ new Date().getFullYear() - 2019 }th pengalaman. Pengalaman dalam
-                        | segala situasi dari siklus development untuk
-                        | project-project web yang dikerjakan. Saya mempunyai
-                        | pengalaman dibeberapa programming diantaranya NodeJS,
-                        | PHP, Mysql, HTML5, CSS3, jQuery.
-                    </p>
-                    div(class="row")
-                        div(class="col-sm-12 col-md-6")
-                            ul(class="ul-info")
-                                li(class="li-info")
-                                    span(class="title-info") Age
-                                    span(class="info") #{ new Date().getFullYear() - 1998 } Tahun
-                                li(class="li-info")
-                                    span(class="title-info") Address
-                                    span(class="info") Jl. Tebet Barat Raya No. 3
-                                li(class="li-info")
-                                    span(class="title-info") Email
-                                    span(class="info") daudcanugerah@gmail.com
-                        div(class="col-sm-12 col-md-6")
-                            ul(class="ul-info")
-                                li(class="li-info")
-                                    span(class="title-info") Phone
-                                    span(class="info") 0831-0131-7515
-                                li(class="li-info")
-                                    span(class="title-info") Website
-                                    span(class="info") daud.web.id
-                                li(class="li-info")
-                                    span(class="title-info") Nationality
-                                    span(class="info") Indonesia
-                        div(class="col-sm-12 col-md-12", style="padding-top: 100px;")
-                            span(class="title-links") Social Links
-                            ul(class="ul-social-links")
-                                li(class="li-social-links")
-                                    a(href="https://facebook.com/#", target="blank")
-                                        i(aria-hidden="true", class="fa fa-facebook")
-                                li(class="li-social-links")
-                                    a(href="https://twitter.com/#", target="blank")
-                                        i(aria-hidden="true", class="fa fa-twitter")
-                                li(class="li-social-links")
-                                    a(href="https://plus.google.com/#", target="blank")
-                                        i(aria-hidden="true", class="fa fa-google-plus")
-                                li(class="li-social-links")
-                                    a(href="https://linkedin.com/in/#", target="blank")
-                                        i(aria-hidden="true", class="fa fa-linkedin")
+section(id="about")
+    div(class="container")
+        div(class="row about-container")
+            div(class="col-lg-6 content order-lg-1 order-2")
+                h2(class="title") Sekilas Tentang Kami
+                <p>
+                    | Kami merupakan sebuah perusahaan startup IT dibidang pendidikan dan service.
+                    | Kami mempunyai impian dimana tehnologi di indonesia tidak akan kalah dengan
+                    | yang ada diluar negeri, dan kami ingin turut mencerdaskan anak bangsa dibidang IT
+                </p>
+                div(class="icon-box wow fadeInUp")
+                    div(class="icon")
+                        i(class="fa fa-heart")
+                    h4(class="title")
+                        a(href="") Ketelitian
+                    p(class="description") Kami mempunyai komitmen dalam mengerjakan sesuatu dengan Teliti
+                div(data-wow-delay="0.2s", class="icon-box wow fadeInUp")
+                    div(class="icon")
+                        i(class="fa fa-american-sign-language-interpreting")
+                    h4(class="title")
+                        a(href="") Profesional
+                    p(class="description") Team Kami selalu menjaga Profesionalitas dalam menjaga kepercayaan anda
+                div(data-wow-delay="0.4s" class="icon-box wow fadeInUp")
+                    div(class="icon")
+                        i(class="fa fa-thumbs-up")
+                    h4(class="title")
+                        a(href="") Percaya
+                    p(class="description") Kami Percaya Bahwa Kami yang terbaik dan memberikan yang terbaik diantara yang lain
+            div(class="col-lg-6 background order-lg-2 order-1 wow fadeInRight")
